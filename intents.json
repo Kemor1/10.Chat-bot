@@ -1,0 +1,24 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "Hello", "Good morning", "Good evening", "Good afternoon", "Hi"],
+     "responses": ["Hi! How can I help you?", "Hi there, how are you?", "Hello!"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Have a nice day"],
+     "responses": ["See you!", "Have a nice day!", "Goodbye!", "Bye! Till next time!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "Thanks for helping me"],
+     "responses": ["Happy to help!", "My pleasure", "Any time!", "No problem!"]
+    },
+    {"tag": "selling",
+     "patterns": ["What are you guys selling?", "What can I buy?", "What can you sell me?", "What can I get here?"],
+     "responses": ["We are selling Iron Man's suits"]
+    },
+    {"tag": "payment",
+     "patterns": ["Can I pay with cash?", "Can I pay with card?", "Cash", "Card"],
+     "responses": ["We accept both cash and card"]
+    }
+    
+]
+}
